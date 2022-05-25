@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/8dc81339fe.js" crossorigin="anonymous"></script>
+        <title>Password Generator</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>Generate a <br> <span style="color: #55F991"> Random Password </span></h1>
+            <p>Never use an insecure password again.</p>
+            <button onclick="renderPassword()"><i class="fa-solid fa-bolt"></i>Generate passwords</button>
+            
+            <!-- Fazer o texto ficar ao lado do input **Mexer no CSS "input label" e "label"** -->
+            <label><input type="number" id="initial-val" value="10" min="5" max="15">Tamanho da senha</label>
+            <hr>
+
+            <!-- Fazer os botões terem a função copy to clipboard -->
+            <button id="btn1">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <button id="btn2">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <button id="btn3">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <button id="btn4">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+
+</html>
