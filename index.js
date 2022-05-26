@@ -59,7 +59,7 @@ function copy(id) {
     //Pega o elemento do id recebido
     let passwordEl = document.getElementById(id);
 
-    //Copia para a área de transferência o textContent do elemento
+    //Copia, para a área de transferência, o textContent do elemento
     navigator.clipboard.writeText(passwordEl.textContent);
     
     //Exibe a mensagem de alerta sobre o texto copiado
