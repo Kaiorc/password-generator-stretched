@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="https://kit.fontawesome.com/8dc81339fe.js" crossorigin="anonymous"></script>
+        <title>Password Generator</title>
+    </head>
+
+    <body>
+        <main>
+            <h1>Generate a <br> <span style="color: #55F991"> Random Password </span></h1>
+            <p>Never use an insecure password again.</p>
+            <button onclick="renderPassword()"><i class="fa-solid fa-bolt"></i>Generate passwords</button>
+            <label><input type="number" id="initial-val" value="10" min="5" max="15">Password size</label>
+            <hr>
+            <button onclick="copy('btn1')" id="btn1" class="btn">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <button onclick="copy('btn2')" id="btn2" class="btn">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <button onclick="copy('btn3')" id="btn3" class="btn">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+            <button onclick="copy('btn4')" id="btn4" class="btn">
+                <i class="fa-solid fa-ellipsis"></i>
+            </button>
+        </main>
+        <script src="index.js"></script>
+    </body>
+
+</html>
