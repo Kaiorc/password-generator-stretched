@@ -36,7 +36,7 @@ function renderPassword() {
     }
 }
 
-//Função que limpa o valor dentro das tags com o id "svg-span" e os ícones
+//Função que limpa o valor dentro das tags com id "btn"
 function clear() {
     let icon = document.querySelector(".fa-solid fa-ellipsis");
     
@@ -46,7 +46,7 @@ function clear() {
         icon.remove();
     }
     
-    //For que percorre os elementos com id "svg-span" e "icon" e limpa os seus conteúdos
+    //For que percorre os elementos com id "btn" e limpa os seus conteúdos
     for(let i = 1; i < 5; i++){
         let btn = document.getElementById("btn"+[i]);
         
@@ -64,5 +64,5 @@ function copy(id) {
     
     //Exibe a mensagem de alerta sobre o texto copiado
     alert("Copied the password: \"" + passwordEl.textContent + "\" to clipboard");
-  }
+}
   
