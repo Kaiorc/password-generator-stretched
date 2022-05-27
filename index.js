@@ -27,7 +27,7 @@ function generatePassword() {
 function renderPassword() {
     clear();
     
-    //For que percorre os elementos com id "svg-span" e atribui o .textContent 
+    //For que percorre os elementos com id "btn" e atribui o .textContent 
     //de cada um, invocando generatePassword()
     for (let i = 1; i < 5; i++) {
         let btn = document.getElementById("btn"+[i]);
